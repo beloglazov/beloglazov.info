@@ -25,7 +25,7 @@ main = hakyll $ do
             >>> applyTemplateCompiler "templates/default.html"
             >>> relativizeUrlsCompiler
 
-    match (list ["about.md", "publications.md"]) $ do
+    match (list ["about.md", "projects.md", "publications.md"]) $ do
         route   $ setExtension "html" `composeRoutes` gsubRoute ".html" (const "/index.html")
         compile $ pageCompiler
             >>> applyTemplateCompiler "templates/default.html"
