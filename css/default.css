@@ -1,0 +1,282 @@
+/* defaults */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: baseline;
+}
+.clear {
+    clear: both !important;
+    display: block !important;
+    float: none !important;
+    font-size: 0.1em !important;
+    height: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    visibility: hidden !important;
+    width: auto !important;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+legend {
+    display: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input, select {
+    vertical-align: middle;
+}
+select, input, textarea, button {
+    font: 99% sans-serif;
+}
+pre, code, kbd, samp {
+    font-family: monospace,sans-serif;
+}
+html {
+    overflow-y: scroll;
+}
+::selection {
+    /* Safari */
+    color: #fff;
+    background: #073642;
+}
+::-moz-selection {
+    /* Firefox */
+    color: #fff;
+    background: #073642;
+}
+
+/* typography */
+p, label {
+    font: 1.6em/1.3em 'Open Sans', Arial,sans-serif;
+    margin-bottom: 18px;
+}
+
+a:hover, a:active {
+    outline: medium none;
+}
+
+ul, ol, ul ul {
+    font: 1.5em/1.3em 'Open Sans',Arial,sans-serif;
+    list-style: disc outside none;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+
+aside ul { list-style: none; margin-bottom: 0; font-size: 1.4em;}
+aside ul li { margin-bottom: .5em; }
+aside ul ul { font-size: 1em;}
+
+nav ul, nav li {
+    list-style: none outside none;
+    margin: 0;
+}
+
+strong, th {
+    font-weight: bold;
+}
+td {
+    vertical-align: top;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+pre {
+    padding: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+textarea {
+    overflow: auto;
+}
+a { color: #cb4b16;}
+a:hover { color: #b58900;}
+
+h1 {
+    font: 2.5em/1.3em 'Open Sans',Arial,sans-serif;
+    font-weight: 300;	
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    color: #93a1a1;
+}
+
+h2 {
+    font: 2.0em/1.3em 'Open Sans',Arial,sans-serif;
+    font-weight: 300;	
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    color: #93a1a1;
+}
+
+/* structure */
+
+body, select, input, textarea {
+    background-color: #FFFFFF;
+    color: #839496;
+    font-size: 75%;
+}
+body { background: #002b36;}
+
+.main {
+    width: 1140px;
+    margin: 0 auto;	
+}
+
+.main aside { float: left; width: 240px; }
+.main .container { width: 660px; float: left; padding-bottom: 50px;}
+
+/* header */
+header { 
+    width:660px; 
+    margin: 0 auto;
+    padding: 30px 0;
+    position: relative;
+}
+header h1 {
+    margin-left: -180px;
+    margin-top: -10px;
+    margin-bottom: 0;
+    text-align: right;
+    width: 138px;
+    float: left;
+/*position: fixed;*/
+}
+
+header h1 a {
+    text-decoration: none; 
+    color: #073642;
+    font: 600 0.9em/1.3em 'Open Sans',Arial,sans-serif;
+}
+
+header h1 a:hover {
+    color: #073642;
+}
+
+header nav ul { margin: 0 auto;}
+
+header nav ul li {
+    float: left;
+    font-size: 1em;
+    padding: 5px 25px 30px 0;
+}
+header nav ul li a  { text-decoration: none;}
+header nav ul li a.active {
+    font-size: 2em;
+}
+
+header nav ul li a:hover  { 
+    color: #cb4b16;
+    background-color: #073642;
+}
+
+footer { margin: 0 auto; width: 660px; font-size: 0.85em;}
+/*home*/
+
+.col-1 { float: left; width: 45%; margin-right: 10%;}
+.col-last { margin-right: 0 !important;}
+
+.col-1 ul { list-style: none; margin-left: 20px;}
+
+.col-3 { width:30%; float: left; margin-right: 5%; margin-bottom: 2em;}
+.col-3 ul { list-style: none; margin-left: 10px;}
+
+.recent-posts { list-style: none; margin-left: 0; }
+.recent-posts span { font-size: .75em; color: #586e75; display: inline-block; padding-right: 10px;}
+
+/* blog list */
+.post-list, .pager {
+    list-style: none;
+    padding: 0;
+    margin: 0;	
+}
+
+.post-list li p { font-size: 1em; }
+.post-list li p.meta { font-style: italic;}
+.post-list li h2 { margin-bottom: 0.5em;}
+.post-list li h2 a { color: #93A1A1; }
+.post-list li h2 a:hover { text-decoration: none;}
+
+
+.pager { margin: 0 auto; padding-top: 50px;}
+.pager li { display: inline-block; margin-right: 15px;}
+
+@media all and (min-width: 900px) and (max-width: 1139px) {
+    header h1 { 
+	float: none;
+	margin: 0 0 15px;
+	text-align: left;
+	width: auto;
+    }
+    .main aside { display: none;}
+    .main aside.right-side { display: block;}
+    
+    .main, header, footer { width: 900px;}
+    
+}
+
+@media all and (max-width: 899px) {
+
+    header h1 { 
+	float: none;
+	margin: 0 0 15px;
+	text-align: left;
+	width: auto;
+    }
+    footer { padding: 15px;}
+    .main aside { display: none;}
+    
+    .main, header { width: auto; padding: 30px 0 0;}
+    .post-list li:first-child h2 { margin-top: 0;}
+    
+    header nav ul { border-top: 1px solid grey;}
+    header nav ul li {
+	float: none;	
+	padding: 0;
+    }
+    
+    header nav ul li a { 
+	display: block;
+	padding: 10px 15px;
+	border-bottom: 1px solid grey;
+    }
+    
+    header nav ul li a.active {
+	font-size: 1.4em;
+	line-height: 1.3em;
+    }
+    
+    header h1 a { padding-left: 15px;}
+    
+    .main .container { width: auto; padding: 0 15px 40px;}
+    
+    .col-1, .col-3 { float: none; width: 100%; margin-right: 0;}
+    .col-3, .col-3 ul { margin-bottom: 0;}
+}
+

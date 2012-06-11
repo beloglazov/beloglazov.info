@@ -1,0 +1,4 @@
+---
+title: About
+---
+Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. Just some text about me. 
