@@ -13,6 +13,10 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "beloglazov_cv.pdf" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
