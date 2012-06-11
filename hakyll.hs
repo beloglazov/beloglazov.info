@@ -9,6 +9,10 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "papers/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
@@ -21,7 +25,7 @@ main = hakyll $ do
             >>> applyTemplateCompiler "templates/default.html"
             >>> relativizeUrlsCompiler
 
-    match (list ["about.md"]) $ do
+    match (list ["about.md", "publications.md"]) $ do
         route   $ setExtension "html" `composeRoutes` gsubRoute ".html" (const "/index.html")
         compile $ pageCompiler
             >>> applyTemplateCompiler "templates/default.html"
