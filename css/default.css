@@ -126,7 +126,7 @@ a:hover { color: #b58900;}
 
 h1 {
     font: 2.5em/1.3em 'Open Sans',Arial,sans-serif;
-    font-weight: 300;	
+    font-weight: 300;
     margin-top: 0.5em;
     margin-bottom: 1em;
     color: #93a1a1;
@@ -134,7 +134,7 @@ h1 {
 
 h2 {
     font: 2.0em/1.3em 'Open Sans',Arial,sans-serif;
-    font-weight: 300;	
+    font-weight: 300;
     margin-top: 1.5em;
     margin-bottom: 1em;
     color: #93a1a1;
@@ -151,15 +151,16 @@ body { background: #002b36;}
 
 .main {
     width: 1140px;
-    margin: 0 auto;	
+    margin: 0 auto;
 }
 
 .main aside { float: left; width: 240px; }
 .main .container { width: 660px; float: left; padding-bottom: 50px;}
+.main .container h2:first-child { margin-top: 0;}
 
 /* header */
-header { 
-    width:660px; 
+header {
+    width:660px;
     margin: 0 auto;
     padding: 30px 0;
     position: relative;
@@ -175,7 +176,7 @@ header h1 {
 }
 
 header h1 a {
-    text-decoration: none; 
+    text-decoration: none;
     color: #073642;
     font: 600 0.9em/1.3em 'Open Sans',Arial,sans-serif;
 }
@@ -196,7 +197,7 @@ header nav ul li a.active {
     font-size: 2em;
 }
 
-header nav ul li a:hover  { 
+header nav ul li a:hover  {
     color: #cb4b16;
     background-color: #073642;
 }
@@ -204,36 +205,43 @@ header nav ul li a:hover  {
 footer { margin: 0 auto; width: 660px; font-size: 0.85em;}
 /*home*/
 
-.col-1 { float: left; width: 45%; margin-right: 10%;}
-.col-last { margin-right: 0 !important;}
+.col-1 { float: left; width: 48%; margin-right: 10%;}
+.col-last { width: 42%; margin-right: 0 !important;}
 
 .col-1 ul { list-style: none; margin-left: 20px;}
+.col-1 li a { margin-left: 10px;}
 
 .col-3 { width:30%; float: left; margin-right: 5%; margin-bottom: 2em;}
 .col-3 ul { list-style: none; margin-left: 10px;}
 
-.recent-posts { list-style: none; margin-left: 0; }
-.recent-posts span { font-size: .75em; color: #586e75; display: inline-block; padding-right: 10px;}
+.posts { list-style: none; margin-left: 0; }
+.posts span {
+    font-size: .75em;
+    color: #586e75;
+    display: inline-block;
+    padding-right: 10px;
+    width: 140px;
+}
 
 /* blog list */
 .post-list, .pager {
     list-style: none;
     padding: 0;
-    margin: 0;	
+    margin: 0;
 }
 
 .post-list li p { font-size: 1em; }
-.post-list li p.meta { font-style: italic;}
 .post-list li h2 { margin-bottom: 0.5em;}
 .post-list li h2 a { color: #93A1A1; }
 .post-list li h2 a:hover { text-decoration: none;}
 
+p.meta { font-style: italic;}
 
 .pager { margin: 0 auto; padding-top: 50px;}
 .pager li { display: inline-block; margin-right: 15px;}
 
 @media all and (min-width: 900px) and (max-width: 1139px) {
-    header h1 { 
+    header h1 {
 	float: none;
 	margin: 0 0 15px;
 	text-align: left;
@@ -241,14 +249,14 @@ footer { margin: 0 auto; width: 660px; font-size: 0.85em;}
     }
     .main aside { display: none;}
     .main aside.right-side { display: block;}
-    
+
     .main, header, footer { width: 900px;}
-    
+
 }
 
 @media all and (max-width: 899px) {
 
-    header h1 { 
+    header h1 {
 	float: none;
 	margin: 0 0 15px;
 	text-align: left;
@@ -256,31 +264,31 @@ footer { margin: 0 auto; width: 660px; font-size: 0.85em;}
     }
     footer { padding: 15px;}
     .main aside { display: none;}
-    
+
     .main, header { width: auto; padding: 30px 0 0;}
     .post-list li:first-child h2 { margin-top: 0;}
-    
+
     header nav ul { border-top: 1px solid grey;}
     header nav ul li {
-	float: none;	
+	float: none;
 	padding: 0;
     }
-    
-    header nav ul li a { 
+
+    header nav ul li a {
 	display: block;
 	padding: 10px 15px;
 	border-bottom: 1px solid grey;
     }
-    
+
     header nav ul li a.active {
 	font-size: 1.4em;
 	line-height: 1.3em;
     }
-    
+
     header h1 a { padding-left: 15px;}
-    
+
     .main .container { width: auto; padding: 0 15px 40px;}
-    
+
     .col-1, .col-3 { float: none; width: 100%; margin-right: 0;}
     .col-3, .col-3 ul { margin-bottom: 0;}
 }

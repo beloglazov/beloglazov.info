@@ -1,5 +1,6 @@
 ---
 title: Projects
+Projects: true
 ---
 
 CloudSim

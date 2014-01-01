@@ -2,7 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>$title$ | Anton Beloglazov</title>
+
+    $if(noTitlePrefix)$
+      <title>Anton Beloglazov</title>
+    $else$
+      <title>$title$ | Anton Beloglazov</title>
+    $endif$
+
     <meta content="Anton Beloglazov" name="author" />
     <meta content="A personal web-site of Anton Beloglazov" name="description" />
     <meta content="Cloud computing, distributed systems, functional programming, linux" name="keywords" />
@@ -18,12 +24,28 @@
       <h1><a href="/" title="">Anton Beloglazov</a></h1>
       <nav>
         <ul>
-          <li><a href="/" class="active" title="Home">Home</a></li>
-          <li><a href="/about" title="About">About</a></li>
-          <li><a href="/blog" title="Blog">Blog</a></li>
-          <li><a href="/projects" title="Projects">Projects</a></li>
-          <li><a href="/publications" title="Publications">Publications</a></li>
-          <li><a href="/linux" title="Linux for life">Linux for life</a></li>
+          <li><a href="/"$if(Home)$ class="active"$endif$ title="Home">Home</a></li>
+          <li><a href="/about"$if(About)$ class="active"$endif$ title="About me">About</a></li>
+          <li><a href="/blog"$if(Blog)$ class="active"$endif$ title="Blog">Blog</a></li>
+          <li><a href="/projects"$if(Projects)$ class="active"$endif$ title="Projects">Projects</a></li>
+          <li><a href="/publications"$if(Publications)$ class="active"$endif$ title="Publications">Publications</a></li>
+          <li>
+<script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=48){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")32,\\\"EMGRXG130\\\\XJ020\\\\130\\\\S600\\\\220\\\\120\\"+
+"\\330\\\\000\\\\200\\\\/UH5r\\\\n\\\\F120\\\\700\\\\200\\\\620\\\\710\\\\71" +
+"0\\\\430\\\\|100\\\\a>6-1#vw010\\\\>=2~#',!,n\\\\?'=')#,.$$\\\"\\\\120\\\\PR" +
+"HU[300\\\\WCZ\\\\\\\\U^020\\\\mr\\\\IK_D310\\\\K520\\\\n\\\\710\\\\HIAWKSW1" +
+"jsyvozws\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirtS=+o;721" +
+"=%y{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"         ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+          </li>
         </ul>
       </nav>
     </header>
@@ -35,8 +57,8 @@
       <div class="container">
         <section>
 
-	  $body$     
-          
+	      $body$
+
         </section>
       </div>
       <aside class="right-side">&nbsp;</aside>
@@ -45,7 +67,7 @@
     <div class="clear">&nbsp;</div>
 
     <footer>
-      <p>&copy; Copyright 2012 Anton Beloglazov. This web site is built with <a href="http://jaspervdj.be/hakyll/">Hakyll</a> and is <a href="https://github.com/beloglazov/beloglazov.info">open-source</a>.</p>
+      <p>&copy; Copyright 2014 Anton Beloglazov. This web site is built with <a href="http://jaspervdj.be/hakyll/">Hakyll</a> and is <a href="https://github.com/beloglazov/beloglazov.info">open-source</a>.</p>
     </footer>
 
   </body>

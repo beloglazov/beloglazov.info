@@ -1,5 +1,6 @@
 ---
 title: Publications
+Publications: true
 ---
 
 Book Chapters

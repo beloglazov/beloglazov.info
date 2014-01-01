@@ -1,0 +1,77 @@
+---
+title: Home
+---
+
+<div class="col-1">
+  <h2>Open Source Projects</h2>
+  <ul>
+    <li>&mdash;
+      <a href="http://openstack-neat.org/"
+         title="A framework for dynamic consolidation of virtual machines in OpenStack Clouds">OpenStack Neat</a>
+    </li>
+    <li>&mdash;
+      <a href="https://github.com/beloglazov/openstack-centos-kvm-glusterfs"
+         title="A step-by-step guide to deploying OpenStack on CentOS using the KVM hypervisor and GlusterFS distributed file system">OpenStack Deployment Guide</a>
+    </li>
+    <li>&mdash;
+      <a href="http://code.google.com/p/cloudsim/"
+         title="A framework for modeling and simulation of Cloud computing infrastructures and services">CloudSim</a>
+    </li>
+    <li>&mdash;
+      <a href="https://github.com/beloglazov/zotero-scholar-citations"
+         title="A Zotero plugin for auto-fetching numbers of citations from Google Scholar">Zotero Scholar Citations</a>
+    </li>
+    <li>&mdash;
+      <a href="https://github.com/beloglazov/vim-online-thesaurus"
+         title="A Vim plugin for looking up words in an online thesaurus">Vim Online Thesaurus</a>
+    </li>
+    <li>&mdash;
+      <a href="https://github.com/beloglazov/chrome-url-opener"
+         title="A Google Chrome extension that allows you to save several URLs and open all of them in one click">Favorite URL Opener</a>
+    </li>
+    <li>&mdash;
+      <a href="/projects" title="View other projects">More...</a>
+    </li>
+  </ul>
+</div>
+
+<div class="col-1 col-last">
+  <h2>Links</h2>
+  <ul>
+    <li>&mdash;
+      <a href="/beloglazov_cv.pdf"
+         title="Download my full CV">My full CV</a>
+    </li>
+    <li>&mdash;
+      <a href="https://github.com/beloglazov"
+         title="My GitHub projects">GitHub projects</a>
+    </li>
+    <li>&mdash;
+      <a href="http://scholar.google.com.au/citations?user=OjQKzwcAAAAJ"
+         title="My Google Scholar profile">Google Scholar profile</a>
+    </li>
+    <li>&mdash;
+      <a href="http://au.linkedin.com/in/beloglazov/"
+         title="My LinkedIn profile">LinkedIn profile</a>
+    </li>
+    <li>&mdash;
+      <a href="http://twitter.com/beloglazov"
+         title="My Twitter">Twitter</a>
+    </li>
+    <li>&mdash;
+      <a href="http://picasaweb.google.com/anton.beloglazov"
+         title="View my photo albums">Photo albums</a>
+    </li>
+  </ul>
+</div>
+
+<div class="clear">&nbsp;</div>
+
+
+$if(posts)$
+<h2>Recent blog posts</h2>
+
+$partial("templates/post-list.html")$
+
+<p><a href="/blog" title="View more blog posts">View blog &rarr;</a></p>
+$endif$

@@ -1,5 +1,5 @@
 _cache
 _site
-hakyll
-hakyll.hi
-hakyll.o
+site
+site.hi
+site.o
