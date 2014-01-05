@@ -3,12 +3,52 @@ title: Projects
 Projects: true
 ---
 
-CloudSim
---------
+## OpenStack Neat
 
-http://code.google.com/p/cloudsim/
+<http://openstack-neat.org/>
 
-A Java framework for modeling and simulation of Cloud computing infrastructures and services.
+A framework for dynamic consolidation of virtual machines in OpenStack Clouds.
+
+
+## OpenStack Deployment Guide
+
+<https://github.com/beloglazov/openstack-centos-kvm-glusterfs>
+
+A step-by-step guide to deploying OpenStack on CentOS using the KVM hypervisor
+and GlusterFS distributed file system.
+
+
+## CloudSim
+
+<http://code.google.com/p/cloudsim/>
+
+A Java framework for modeling and simulation of Cloud computing infrastructures
+and services.
+
+
+## Zotero Scholar Citations
+
+<https://github.com/beloglazov/zotero-scholar-citations>
+<https://addons.mozilla.org/en-US/firefox/addon/14667/>
+
+A plugin for [Zotero](http://www.zotero.org/) (research sources management tool)
+for auto-fetching numbers of paper citations from Google Scholar.
+
+
+## Vim Online Thesaurus
+
+<https://github.com/beloglazov/vim-online-thesaurus>
+
+A Vim plugin for looking up words in an online thesaurus.
+
+
+## Favorite URL Opener
+
+<https://github.com/beloglazov/chrome-url-opener>
+<https://chrome.google.com/webstore/detail/fmaghpidamhgpflfpekegcleapoapjba>
+
+A Google Chrome extension that allows you to save several URLs and open all of
+them in one click.
 
 
 clj-genetic
@@ -16,7 +56,8 @@ clj-genetic
 
 http://github.com/beloglazov/clj-genetic/
 
-A Clojure library for solving optimization problems using real-coded Genetic Algorithms.
+A Clojure library for solving optimization problems using real-coded Genetic
+Algorithms.
 
 
 clj-predicates
@@ -33,22 +74,6 @@ clojure-archetype-servlet
 http://github.com/beloglazov/clojure-archetype-servlet/
 
 A Maven archetype for creating a blank Clojure servlet project set up for Jetty with auto-compilation and reloading.
-
-
-Zotero Scholar Citations
-------------------------
-
-https://addons.mozilla.org/en-US/firefox/addon/14667/
-
-A plugin for [Zotero](http://www.zotero.org/) (research sources management tool) for auto-fetching numbers of paper citations from Google Scholar.
-
-
-Favorite URL Opener
--------------------
-
-https://chrome.google.com/webstore/detail/fmaghpidamhgpflfpekegcleapoapjba
-
-An extension for Google Chrome allowing the user to open multiple saved URLs in one click.
 
 
 google-docs-upload
