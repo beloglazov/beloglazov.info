@@ -66,7 +66,7 @@ html {
 
 /* typography */
 p, label {
-    font: 1.6em/1.3em 'Open Sans', Arial,sans-serif;
+    font: 1.6em/1.4em 'Open Sans',Arial,sans-serif;
     margin-bottom: 18px;
 }
 
@@ -75,7 +75,7 @@ a:hover, a:active {
 }
 
 ul, ol, ul ul {
-    font: 1.5em/1.3em 'Open Sans',Arial,sans-serif;
+    font: 1.5em/1.4em 'Open Sans',Arial,sans-serif;
     list-style: disc outside none;
     margin-bottom: 15px;
     margin-left: 30px;
@@ -125,7 +125,7 @@ a { color: #cb4b16;}
 a:hover { color: #b58900;}
 
 h1 {
-    font: 2.5em/1.3em 'Open Sans',Arial,sans-serif;
+    font: 2.5em/1.4em 'Open Sans',Arial,sans-serif;
     font-weight: 300;
     margin-top: 0.5em;
     margin-bottom: 1em;
@@ -133,7 +133,7 @@ h1 {
 }
 
 h2 {
-    font: 2.0em/1.3em 'Open Sans',Arial,sans-serif;
+    font: 2.0em/1.4em 'Open Sans',Arial,sans-serif;
     font-weight: 300;
     margin-top: 1.5em;
     margin-bottom: 1em;
@@ -147,7 +147,7 @@ body, select, input, textarea {
     color: #839496;
     font-size: 75%;
 }
-body { background: #002b36;}
+body { background: #002b36; }
 
 .main {
     width: 1140px;
@@ -155,8 +155,8 @@ body { background: #002b36;}
 }
 
 .main aside { float: left; width: 240px; }
-.main .container { width: 660px; float: left; padding-bottom: 50px;}
-.main .container h2:first-child { margin-top: 0;}
+.main .container { width: 660px; float: left; padding-bottom: 50px; }
+.main .container h2:first-child { margin-top: 0; }
 
 /* header */
 header {
@@ -172,27 +172,27 @@ header h1 {
     text-align: right;
     width: 138px;
     float: left;
-/*position: fixed;*/
+    /*position: fixed;*/
 }
 
 header h1 a {
     text-decoration: none;
     color: #073642;
-    font: 600 0.9em/1.3em 'Open Sans',Arial,sans-serif;
+    font: 600 0.9em/1.4em 'Open Sans',Arial,sans-serif;
 }
 
 header h1 a:hover {
     color: #073642;
 }
 
-header nav ul { margin: 0 auto;}
+header nav ul { margin: 0 auto; }
 
 header nav ul li {
     float: left;
     font-size: 1em;
     padding: 5px 25px 30px 0;
 }
-header nav ul li a  { text-decoration: none;}
+header nav ul li a  { text-decoration: none; }
 header nav ul li a.active {
     font-size: 2em;
 }
@@ -202,17 +202,17 @@ header nav ul li a:hover  {
     background-color: #073642;
 }
 
-footer { margin: 0 auto; width: 660px; font-size: 0.85em;}
+footer { margin: 0 auto; width: 660px; font-size: 0.85em; }
 /*home*/
 
-.col-1 { float: left; width: 48%; margin-right: 10%;}
-.col-last { width: 42%; margin-right: 0 !important;}
+.col-1 { float: left; width: 48%; margin-right: 10%; }
+.col-last { width: 42%; margin-right: 0 !important; }
 
-.col-1 ul { list-style: none; margin-left: 20px;}
-.col-1 li a { margin-left: 10px;}
+.col-1 ul { list-style: none; margin-left: 20px; }
+.col-1 li a { margin-left: 10px; }
 
-.col-3 { width:30%; float: left; margin-right: 5%; margin-bottom: 2em;}
-.col-3 ul { list-style: none; margin-left: 10px;}
+.col-3 { width:30%; float: left; margin-right: 5%; margin-bottom: 2em; }
+.col-3 ul { list-style: none; margin-left: 10px; }
 
 .posts { list-style: none; margin-left: 0; }
 .posts span {
@@ -231,65 +231,65 @@ footer { margin: 0 auto; width: 660px; font-size: 0.85em;}
 }
 
 .post-list li p { font-size: 1em; }
-.post-list li h2 { margin-bottom: 0.5em;}
+.post-list li h2 { margin-bottom: 0.5em; }
 .post-list li h2 a { color: #93A1A1; }
-.post-list li h2 a:hover { text-decoration: none;}
+.post-list li h2 a:hover { text-decoration: none; }
 
-p.meta { font-style: italic;}
+p.meta { font-style: italic; }
 
-.pager { margin: 0 auto; padding-top: 50px;}
-.pager li { display: inline-block; margin-right: 15px;}
+.pager { margin: 0 auto; padding-top: 50px; }
+.pager li { display: inline-block; margin-right: 15px; }
 
 @media all and (min-width: 900px) and (max-width: 1139px) {
     header h1 {
-	float: none;
-	margin: 0 0 15px;
-	text-align: left;
-	width: auto;
+        float: none;
+        margin: 0 0 15px;
+        text-align: left;
+        width: auto;
     }
-    .main aside { display: none;}
-    .main aside.right-side { display: block;}
+    .main aside { display: none; }
+    .main aside.right-side { display: block; }
 
-    .main, header, footer { width: 900px;}
+    .main, header, footer { width: 900px; }
 
 }
 
 @media all and (max-width: 899px) {
 
     header h1 {
-	float: none;
-	margin: 0 0 15px;
-	text-align: left;
-	width: auto;
+        float: none;
+        margin: 0 0 15px;
+        text-align: left;
+        width: auto;
     }
-    footer { padding: 15px;}
-    .main aside { display: none;}
+    footer { padding: 15px; }
+    .main aside { display: none; }
 
-    .main, header { width: auto; padding: 30px 0 0;}
-    .post-list li:first-child h2 { margin-top: 0;}
+    .main, header { width: auto; padding: 30px 0 0; }
+    .post-list li:first-child h2 { margin-top: 0; }
 
-    header nav ul { border-top: 1px solid grey;}
+    header nav ul { border-top: 1px solid grey; }
     header nav ul li {
-	float: none;
-	padding: 0;
+        float: none;
+        padding: 0;
     }
 
     header nav ul li a {
-	display: block;
-	padding: 10px 15px;
-	border-bottom: 1px solid grey;
+        display: block;
+        padding: 10px 15px;
+        border-bottom: 1px solid grey;
     }
 
     header nav ul li a.active {
-	font-size: 1.4em;
-	line-height: 1.3em;
+        font-size: 1.4em;
+        line-height: 1.4em;
     }
 
-    header h1 a { padding-left: 15px;}
+    header h1 a { padding-left: 15px; }
 
-    .main .container { width: auto; padding: 0 15px 40px;}
+    .main .container { width: auto; padding: 0 15px 40px; }
 
-    .col-1, .col-3 { float: none; width: 100%; margin-right: 0;}
-    .col-3, .col-3 ul { margin-bottom: 0;}
+    .col-1, .col-3 { float: none; width: 100%; margin-right: 0; }
+    .col-3, .col-3 ul { margin-bottom: 0; }
 }
 
