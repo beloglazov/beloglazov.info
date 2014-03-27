@@ -17,6 +17,6 @@ are interested in further details about my work, please have a look at my
 In my free time, I enjoy contributing to [open
 source](https://github.com/beloglazov), polishing my [Arch Linux - Xmonad - Zsh
 - Vim configs](https://github.com/beloglazov/arch-xmonad-zsh), and learning
-  Haskell and Scalaz. BTW, this web site is powered by the awesome
-  [Hakyll](http://jaspervdj.be/hakyll/) static web site generator written in
-  Haskell by [Jasper Van der Jeugt](http://jaspervdj.be/).
+Haskell and Scalaz. By the way, this web site is powered by the awesome
+[Hakyll](http://jaspervdj.be/hakyll/) static web site generator written in
+Haskell by [Jasper Van der Jeugt](http://jaspervdj.be/).
