@@ -55,12 +55,13 @@ A Vim plugin for looking up words in an online thesaurus.
 
 <https://github.com/beloglazov/vim-textobj-quotes>
 
-A Vim plugin providing text objects for the closest pairs of quotes of any type.
+A Vim plugin that provides text objects for the closest pairs of quotes of any
+type.
 
 
 ## arch-xmonad-zsh
 
-<http://github.com/beloglazov/arch-xmonad-zsh>
+<https://github.com/beloglazov/arch-xmonad-zsh>
 
 A set of configuration files and shell scripts for setting up a desktop
 environment using Arch Linux, Xmonad, Zsh, Vim, etc.
@@ -68,7 +69,7 @@ environment using Arch Linux, Xmonad, Zsh, Vim, etc.
 
 ## clj-genetic
 
-<http://github.com/beloglazov/clj-genetic>
+<https://github.com/beloglazov/clj-genetic>
 
 A Clojure library for implementing real-coded genetic algorithms.
 

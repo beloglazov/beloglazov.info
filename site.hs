@@ -15,6 +15,10 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
+    match "papers/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "downloadable-root/*" $ do
         route   $ gsubRoute "downloadable-root/" (const "")
         compile copyFileCompiler
