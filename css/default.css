@@ -203,6 +203,7 @@ header nav ul li a:hover  {
 }
 
 footer { margin: 0 auto; width: 660px; font-size: 0.85em; }
+
 /*home*/
 
 .col-1 { float: left; width: 48%; margin-right: 10%; }
@@ -258,7 +259,7 @@ p.meta { font-style: italic; }
 
     header h1 {
         float: none;
-        margin: 0 0 15px;
+        margin: -10px 0 15px;
         text-align: left;
         width: auto;
     }
@@ -291,5 +292,7 @@ p.meta { font-style: italic; }
 
     .col-1, .col-3 { float: none; width: 100%; margin-right: 0; }
     .col-3, .col-3 ul { margin-bottom: 0; }
+
+    footer { width: auto; }
 }
 
