@@ -59,12 +59,19 @@ A Vim plugin that provides text objects for the closest pairs of quotes of any
 type.
 
 
-## arch-xmonad-zsh
+## vim-textobj-punctuation
 
-<https://github.com/beloglazov/arch-xmonad-zsh>
+<https://github.com/beloglazov/vim-textobj-punctuation>
 
-A set of configuration files and shell scripts for setting up a desktop
-environment using Arch Linux, Xmonad, Zsh, Vim, etc.
+A Vim plugin that provides text objects for the text between the cursor position
+to the closest punctuation in front.
+
+
+## vimrc
+
+<https://github.com/beloglazov/vimrc>
+
+My Vim configuration.
 
 
 ## clj-genetic
