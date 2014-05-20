@@ -33,7 +33,7 @@ of Computing and Information Systems, The University of Melbourne_, Australia,
    Clouds"](/papers/2014-ccpe-openstack-neat.pdf "OpenStack Neat: A Framework
    for Dynamic and Energy-Efficient Consolidation of Virtual Machines in
    OpenStack Clouds"), _Concurrency and Computation: Practice and Experience
-   (CCPE)_, John Wiley & Sons, Ltd, USA, 2014 (accepted on 19/05/2014).
+   (CCPE)_, John Wiley & Sons, Ltd, USA, 2014 (in press, accepted on 19/05/2014).
 1. **Anton Beloglazov** and Rajkumar Buyya, ["Managing Overloaded Hosts for
    Dynamic Consolidation of Virtual Machines in Cloud Data Centers Under Quality
    of Service Constraints"](/papers/2013-tpds-managing-overloaded-hosts.pdf
