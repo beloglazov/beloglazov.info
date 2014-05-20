@@ -6,8 +6,10 @@ Publications: true
 ## PhD Thesis
 
 **Anton Beloglazov**, ["Energy-Efficient Management of Virtual Machines in Data
-Centers for Cloud Computing"](/thesis.pdf), PhD thesis, _Department of Computing
-and Information Systems, The University of Melbourne_, Australia, 2013.
+Centers for Cloud Computing"](/thesis.pdf "Energy-Efficient Management of
+Virtual Machines in Data Centers for Cloud Computing"), PhD thesis, _Department
+of Computing and Information Systems, The University of Melbourne_, Australia,
+2013.
 
 * [Video recording of the PhD completion
   seminar](https://www.youtube.com/watch?v=pPQ-tuKoSss)
@@ -26,11 +28,19 @@ and Information Systems, The University of Melbourne_, Australia, 2013.
 
 ## Journal Publications
 
+1. **Anton Beloglazov** and Rajkumar Buyya, ["OpenStack Neat: A Framework for
+   Dynamic and Energy-Efﬁcient Consolidation of Virtual Machines in OpenStack
+   Clouds"](/papers/2014-ccpe-openstack-neat.pdf "OpenStack Neat: A Framework
+   for Dynamic and Energy-Efﬁcient Consolidation of Virtual Machines in
+   OpenStack Clouds"), _Concurrency and Computation: Practice and Experience
+   (CCPE)_, John Wiley & Sons, Ltd, USA, 2014 (accepted on 19/05/2014).
 1. **Anton Beloglazov** and Rajkumar Buyya, ["Managing Overloaded Hosts for
    Dynamic Consolidation of Virtual Machines in Cloud Data Centers Under Quality
-   of Service Constraints"](/papers/2013-tpds-managing-overloaded-hosts.pdf),
-   _IEEE Transactions on Parallel and Distributed Systems (TPDS)_, Volume 24,
-   Issue 7, Pages 1366-1379, IEEE CS Press, USA, 2013.
+   of Service Constraints"](/papers/2013-tpds-managing-overloaded-hosts.pdf
+   "Managing Overloaded Hosts for Dynamic Consolidation of Virtual Machines in
+   Cloud Data Centers Under Quality of Service Constraints"), _IEEE Transactions
+   on Parallel and Distributed Systems (TPDS)_, Volume 24, Issue 7, Pages
+   1366-1379, IEEE CS Press, USA, 2013.
 1. **Anton Beloglazov**, and Rajkumar Buyya, ["Optimal Online Deterministic
    Algorithms and Adaptive Heuristics for Energy and Performance Efficient
    Dynamic Consolidation of Virtual Machines in Cloud Data
