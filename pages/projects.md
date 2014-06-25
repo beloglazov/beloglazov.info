@@ -34,6 +34,11 @@ extension](https://chrome.google.com/webstore/detail/fmaghpidamhgpflfpekegcleapo
 that allows you to save several URLs and open all of them in one click.
 
 
+## [hamcrest-querydsl](https://github.com/beloglazov/hamcrest-querydsl)
+
+A Java library of Hamcrest matchers for Querydsl.
+
+
 ## [vim-online-thesaurus](https://github.com/beloglazov/vim-online-thesaurus)
 
 A Vim plugin for looking up words in an online thesaurus.
