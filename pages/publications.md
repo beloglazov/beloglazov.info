@@ -29,11 +29,13 @@ of Computing and Information Systems, The University of Melbourne_, Australia,
 ## Journal Publications
 
 1. **Anton Beloglazov**, Dipyaman Banerjee, Alan Hartman, and Rajkumar Buyya,
-   ["Improving Productivity in Design and Development of IT Service Delivery
-   Simulation Models"](/papers/2014-jsr-service-simulation.pdf "Improving
-   Productivity in Design and Development of IT Service Delivery Simulation
-   Models"), _Journal of Service Research (JSR)_, Sage Publications, USA, 2014
-   (in press, accepted on 27/05/2014).
+   ["Improving Productivity in Design and Development of Information Technology
+   (IT) Service Delivery Simulation
+   Models"](/papers/2014-jsr-service-simulation.pdf "Improving Productivity in
+   Design and Development of Information Technology (IT) Service Delivery
+   Simulation Models"), _Journal of Service Research (JSR)_, Sage Publications,
+   USA, 2014 (in press, accepted on 27/05/2014).
+
 1. **Anton Beloglazov** and Rajkumar Buyya, ["OpenStack Neat: A Framework for
    Dynamic and Energy-Efficient Consolidation of Virtual Machines in OpenStack
    Clouds"](/papers/2014-ccpe-openstack-neat.pdf "OpenStack Neat: A Framework
