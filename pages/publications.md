@@ -63,6 +63,11 @@ of Computing and Information Systems, The University of Melbourne_, Australia,
    Centers for Cloud Computing"), _The International Journal of Grid Computing
    and eScience, Future Generation Computer Systems (FGCS)_, Volume 28, Issue 5,
    Pages: 755-768, Elsevier Science, The Netherlands, 2012.
+     - <a href="http://www.cs.bme.hu/~manusz/">Zoltán Ádám Mann</a> has derived
+       and proved some performance characteristics of the MM and MBFD heuristics
+       in his paper: ["Rigorous results on the effectiveness of some heuristics
+       for the consolidation of virtual machines in a cloud data
+       center"](http://www.cs.bme.hu/~manusz/publications/Preprints/Mann_Rigorous_VM_Consolidation.pdf)
 1. Kyong Hoon Kim, **Anton Beloglazov**, and Rajkumar Buyya, ["Power-Aware
    Provisioning of Virtual Machines for Real-Time Cloud
    Services"](/papers/2011-ccpe-vm-provisioning-for-real-time-services.pdf
@@ -109,8 +114,17 @@ of Computing and Information Systems, The University of Melbourne_, Australia,
    2009)_, Urbana Champaign, Illinois, USA: ACM, 2009.
 1. **Anton Beloglazov**, and Sergey Piskunov, "An Algorithm for Two-Level
    Scheduling of Parallel Jobs", _Proceedings of the All-Russian Science
-   Conference of Young Scientists "Science. Technologies. Innovations."_, Part
-   1, Novosibirsk, Russia, December 6-9, 2007, pp. 164-168.
+   Conference of Young Scientists "Science. Technology. Innovation."_, Part
+   1, Novosibirsk, Russia, December 6-9, 2007.
 1. **Anton Beloglazov**, and Sergey Piskunov, "A System for Remote Execution of
    Simulation Programs on Multicomputers", _Proceedings of ICMaMG SB RAS, Series
-   of Computer Science_, Number 7, Novosibirsk, Russia, 2007, pp. 181-186.
+   of Computer Science_, Issue 7, Novosibirsk, Russia, 2007.
+
+
+## Technical reports
+
+1. **Anton Beloglazov**, Sareh Fotuhi Piraghaj, Mohammed Alrokayan, and Rajkumar
+   Buyya, ["Deploying OpenStack on CentOS Using the KVM Hypervisor and GlusterFS
+   Distributed File System"](/papers/2012-openstack-deployment-report.pdf),
+   _Technical Report CLOUDS-TR-2012-3, Cloud Computing and Distributed Systems
+   Laboratory_, The University of Melbourne, August 14, 2012.

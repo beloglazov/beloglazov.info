@@ -74,12 +74,14 @@ a:hover, a:active {
     outline: medium none;
 }
 
-ul, ol, ul ul {
+ul, ol {
     font: 1.5em/1.4em 'Open Sans',Arial,sans-serif;
     list-style: disc outside none;
     margin-bottom: 15px;
     margin-left: 30px;
 }
+
+ul ul, ol ul { font-size: 1em; margin: 10px 0 12px 35px}
 
 ol li { margin-bottom: .5em; }
 
@@ -143,7 +145,6 @@ h2 {
 /* structure */
 
 body, select, input, textarea {
-    background-color: #FFFFFF;
     color: #839496;
     font-size: 75%;
 }
