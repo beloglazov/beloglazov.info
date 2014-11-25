@@ -67,7 +67,7 @@ of Computing and Information Systems, The University of Melbourne_, Australia,
        and proved some performance characteristics of the MM and MBFD heuristics
        in his paper: ["Rigorous results on the effectiveness of some heuristics
        for the consolidation of virtual machines in a cloud data
-       center"](http://www.cs.bme.hu/~manusz/publications/Preprints/Mann_Rigorous_VM_Consolidation.pdf)
+       center"](http://www.cs.bme.hu/~manusz/publications/Preprints/Mann_Rigorous_VM_Consolidation.pdf).
 1. Kyong Hoon Kim, **Anton Beloglazov**, and Rajkumar Buyya, ["Power-Aware
    Provisioning of Virtual Machines for Real-Time Cloud
    Services"](/papers/2011-ccpe-vm-provisioning-for-real-time-services.pdf
