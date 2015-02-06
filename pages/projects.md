@@ -3,6 +3,11 @@ title: Projects
 Projects: true
 ---
 
+## [CouchDB-Scala](https://github.com/beloglazov/couchdb-scala)
+
+A purely functional Scala client for CouchDB.
+
+
 ## [OpenStack Neat](http://openstack-neat.org/)
 
 A Python framework for dynamic consolidation of virtual machines in OpenStack
