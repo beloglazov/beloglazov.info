@@ -1,9 +1,9 @@
 #!/bin/sh
 
-if ghc --make site.hs; then
+if stack ghc -- --make site.hs; then
     ./site clean
     ./site build
-    cp -R _site/* ../beloglazov.github.com/
+    cp -R _site/* ../beloglazov.github.io/
     cd ../beloglazov.github.com
     git add .
     git commit -a -m "Deployment on `date`"
