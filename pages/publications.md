@@ -20,7 +20,7 @@ of Computing and Information Systems, The University of Melbourne_, Australia,
 
 1. **Anton Beloglazov**, Mahathir Almashor, Ermyas Abebe, Jan Richter, and Kent
    Charles Barton Steer, ["Simulation of Wildfire Evacuation with Dynamic
-   Factors and Model Composition"](/papers/2016-smpt-wildfire-evacuation.pdf
+   Factors and Model Composition"](/papers/2016-smpt-wildfire-evacuation.pdf 
    "Simulation of Wildfire Evacuation with Dynamic Factors and Model
    Composition") _Simulation Modelling Practice and Theory_, 60, pp. 144-159, 2016.
 1. **Anton Beloglazov**, Dipyaman Banerjee, Alan Hartman, and Rajkumar Buyya,
