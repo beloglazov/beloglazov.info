@@ -38,8 +38,7 @@ and Information Systems, The University of Melbourne_, Australia, 2013.
    Algorithms and Adaptive Heuristics for Energy and Performance Efficient
    Dynamic Consolidation of Virtual Machines in Cloud Data
    Centers"](/papers/2012-ccpe-vm-consolidation-algorithms.pdf), _Concurrency
-   and Computation: Practice and Experience (CCPE)_, 24(13), pp.  1397-1420,
-   2012.
+   and Computation: Practice and Experience (CCPE)_, 24(13), pp. 1397-1420, 2012.
 1. **Anton Beloglazov**, Jemal Abawajy, and Rajkumar Buyya, ["Energy-Aware
    Resource Allocation Heuristics for Efficient Management of Data Centers for
    Cloud Computing"](/papers/2012-fgcs-vm-consolidation-heuristics.pdf), _The
